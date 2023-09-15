@@ -1,0 +1,65 @@
+.cont {
+  background-color: #152850;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  bottom: 20px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 400px;
+}
+.img {
+  height: 600px;
+  width: 600px;
+}
+.h {
+  font-family: Roboto;
+  font-weight: bold;
+  color: #183b56;
+  align-self: flex-start;
+}
+
+.label {
+  font-family: Roboto;
+  font-weight: bold;
+  color: #5a7184;
+  align-self: flex-start;
+  margin-top: 30px;
+}
+.input {
+  height: 30px;
+  width: 300px;
+  align-self: flex-start;
+  margin-bottom: 30px;
+  padding-left: 10px;
+}
+.btn {
+  background-color: #1565d8;
+  height: 35px;
+  width: 300px;
+  border: 0px solid;
+  align-self: flex-start;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.err {
+  color: #ff0b37;
+  font-family: Roboto;
+}
+.v {
+  color: #152850;
+  font-weight: bold;
+  font-family: Roboto;
+}
